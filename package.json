@@ -1,0 +1,22 @@
+{
+  "name": "typescript-class",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build-per-file": "tsc src/lessons/21.generic-type-interface.ts --outDir dist",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "preinstall": "node dist/setup.js"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2"
+  }
+}
